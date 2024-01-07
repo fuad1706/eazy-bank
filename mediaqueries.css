@@ -1,0 +1,130 @@
+@media screen and (max-width: 700px){
+
+    body{
+        overflow-x: hidden;
+    }
+    nav{
+        display: none;
+    }
+
+    nav{
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease, background-color 0.3s ease; 
+        background-color: black;
+        width: 90%;
+        height: 0;
+        position: absolute;
+        top: 100px; 
+        right: 20px; 
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+        nav.open-nav {
+            max-height: 500px; 
+            height: 300px; 
+            background-color: var(--white);
+            box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.8);
+
+            border-radius: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 1em;
+        margin-top: 50px;
+    }
+
+    nav ul li {
+        text-align: center;
+    }
+    nav ul li a {
+        font-size: 25px;
+        color: black;
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    .first-sec button{
+        display: none;
+    }
+
+    .first-sec{
+        justify-content: space-between;
+        padding: 40px 20px;
+    }
+
+    .second-sec{
+        padding: 0;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .generation{
+        width: 100%;
+        margin-top: -100px;
+        margin-bottom: 80px;
+
+    }
+
+    .generation h1{
+        font-size: 30px;
+    }
+
+    .generation p br{
+        display: none;
+    }
+
+    .phone{
+        width: 100%;
+        transform: translateX(0px);
+        transform: translateY(-180px);
+    }
+
+    .phone-top{
+        transform: translateX(0px);
+        width: 350px;
+        transform: translateY(190px);
+        /* margin-left: -20px; */
+        
+    }
+
+    .third-sec{
+        padding: 0;
+        text-align: center;
+        height:max-content;
+    }
+
+    .third-sec-cont{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .choose-us h1{
+        font-size: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .choose-us p br{
+        display: none;
+    }
+
+    .choose-us p{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .third-sec-cont p br{
+        display: none;
+    }
+
+    .third-sec-cont p{
+        margin-bottom: 20px;
+    }
+}
