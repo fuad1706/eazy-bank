@@ -81,15 +81,16 @@
     }
 
     .phone{
+        background-image:url(./images/bg-intro-mobile.svg);
         width: 100%;
         transform: translateX(0px);
-        transform: translateY(-180px);
+        /* transform: translateY(-180px); */
     }
 
     .phone-top{
         transform: translateX(0px);
         width: 350px;
-        transform: translateY(190px);
+        transform: translateY(70px);
         /* margin-left: -20px; */
         
     }
@@ -127,4 +128,72 @@
     .third-sec-cont p{
         margin-bottom: 20px;
     }
+
+    .fourth-sec{
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .fourth-sec h1{
+        margin-left: 70px;
+    }
+
+    .fourth-seca{
+        flex-direction: column;
+        /* width: 100%; */
+        margin: 0 auto;
+    }
+
+    .currency, .restaurant, .plane,.confetti{
+        width: 100%;
+    }
+
+    .fourth-seca p{
+        font-size: 15px;
+    }
+
+    .fourth-seca h3{
+        margin-bottom: 10px;
+    }
+
+.fourth-seca1,
+.fourth-seca2,
+.fourth-seca3,
+.fourth-seca4{
+    width: 90%;
+    height: 380px;
+    margin-bottom: 30px;
+}
+
+.fourth-seca4{
+    margin-bottom: 70px;
+}
+
+.footer{
+    flex-direction: column;
+    height: fit-content;
+    padding: 0;
+    text-align: center;
+}
+
+.footer .footera .footer-logo{
+    margin-top: 50px;
+}
+
+.social-links{
+    margin-bottom: 30px;
+}
+
+.footerd button{
+    margin-bottom: 10px;
+}
+.footerd p{
+    margin-bottom: 20px;
+}
+.footerb{
+
+}
+
+
+
 }

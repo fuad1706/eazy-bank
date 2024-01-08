@@ -139,7 +139,7 @@ nav ul li a:hover::before{
 .phone-top{
     width: 550px;
     transform: translateX(90px);
-    /* z-index: ; */
+    z-index: 1;
 }
 
 .third-sec{
@@ -241,3 +241,41 @@ nav ul li a:hover::before{
     padding-left: 120px;
 }
 
+.footer .footera .footer-logo{
+        margin-bottom: 50px;
+}
+
+.social-links img{
+    display: inline-block;
+}
+
+.social-links img:hover{
+    color: var(--lime--green);
+}
+
+.footerb ul, .footerc ul{
+    list-style: none;
+}
+
+.footerb li, .footerc li{
+    margin-bottom: 20px;
+}
+
+.footerb a, .footerc a{
+    color: var(--white);
+    text-decoration: none;
+}
+
+.footerb a:hover, .footerc a:hover{
+    color: var(--lime--green);
+}
+
+.footerd button{
+    margin-bottom: 20px;
+}
+
+.footerd p{
+    font-size: 12px;
+    color: var(--grayish--blue);
+    /* padding-right: -50px; */
+}
