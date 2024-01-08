@@ -161,7 +161,7 @@
 .fourth-seca3,
 .fourth-seca4{
     width: 90%;
-    height: 380px;
+    height: 400px;
     margin-bottom: 30px;
 }
 
@@ -178,10 +178,17 @@
 
 .footer .footera .footer-logo{
     margin-top: 50px;
+    fill: white;
 }
 
 .social-links{
     margin-bottom: 30px;
+}
+
+.social-links:hover{
+    opacity: 0.7;
+    background: #3B5998;
+  color: white;
 }
 
 .footerd button{

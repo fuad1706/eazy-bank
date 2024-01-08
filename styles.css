@@ -201,7 +201,7 @@ nav ul li a:hover::before{
 .fourth-seca3,
 .fourth-seca4{
     width: 23%;
-    height: 380px;
+    height: 400px;
     background-color: var(--white);
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
@@ -243,6 +243,8 @@ nav ul li a:hover::before{
 
 .footer .footera .footer-logo{
         margin-bottom: 50px;
+        background-color:white;
+        padding: 5px;
 }
 
 .social-links img{
