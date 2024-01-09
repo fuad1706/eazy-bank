@@ -1,3 +1,6 @@
+
+
+
 @media screen and (max-width: 700px){
 
     body{
@@ -203,4 +206,20 @@
 
 
 
+}
+
+@media screen and (max-width: 360px){
+    .fourth-seca p{
+        padding: 0 auto;
+        font-size: 13px;
+    }
+
+    .fourth-seca p br{
+        display: none;
+    }
+
+    .fourth-sec h1{
+        font-size: 23px;
+        margin: 20px 0 20px 70px ;
+    }
 }
