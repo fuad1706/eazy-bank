@@ -84,14 +84,13 @@
         background-image:url(./images/bg-intro-mobile.svg);
         width: 100%;
         transform: translateX(0px);
-        /* transform: translateY(-180px); */
+        /* transform: translateY(-10px); */
     }
 
     .phone-top{
         transform: translateX(0px);
         width: 350px;
-        transform: translateY(70px);
-        /* margin-left: -20px; */
+        transform: translateY(50px);
         
     }
 
@@ -135,7 +134,7 @@
     }
 
     .fourth-sec h1{
-        margin-left: 70px;
+        margin-left: 80px;
     }
 
     .fourth-seca{
@@ -193,6 +192,7 @@
 
 .footerd button{
     margin-bottom: 10px;
+    margin-left: 0;
 }
 .footerd p{
     margin-bottom: 20px;
