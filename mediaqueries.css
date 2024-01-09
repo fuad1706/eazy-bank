@@ -1,4 +1,43 @@
+@media screen and (max-width: 1200px){
+    .phone{
+        background-image:url(./images/bg-intro-desktop.svg);
+        width: 70%;
+        height: 600px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        transform: translateX(110px);
+        margin-top: -120px;
+        z-index: -1;
+    }
 
+
+    .third-sec-cont{
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    .third-sec-cont p{
+        color: var(--grayish--blue);
+        font-size: 13px;
+    }
+
+    .currency, .restaurant, .plane,.confetti{
+        width: 223px;
+        height: 190px;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        margin-bottom: 20px;
+    }
+
+    .fourth-seca p{
+        font-size: 11px;
+        color: var(--grayish--blue);
+        padding: 0 20px;
+    }
+    
+}
 
 
 @media screen and (max-width: 700px){
